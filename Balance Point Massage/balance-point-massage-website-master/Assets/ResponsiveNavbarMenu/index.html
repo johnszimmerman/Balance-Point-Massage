@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="responsivemenu.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="responsivemenu.js"></script>
+   <title>Responsive Menu</title>
+</head>
+<body>
+
+<!--This is the menu, and it should mostly stay the same on every page. However, to show which page is active, add class="active" to the <li> tag. This must be changed for every page. -->
+<div id='cssmenu'>
+    <ul>
+        <li><a href='index.html'><span>Home</span></a></li>
+
+        <li class='has-sub'><a href='aboutus.html'><span>About Us</span></a>
+            <ul>
+                <li><a href='companyhistory.html'><span>Company History</span></a></li>
+                <li><a href='meettheteam.html'><span>Meet the Team</span></a></li>        
+                <li><a href='ourphilosophy.html'><span>Our Philosophy</span></a>
+                </li>
+                <!--
+                 This would add a submenu to the submenu. class="has-sub" adds the circular arrow icon which indicates there is a further sub menu
+                         <li class='has-sub'><a href='#'><span>Product 2</span></a>
+                            <ul>
+                               <li><a href='#'><span>Sub Product</span></a></li>
+                               <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                            </ul>
+                         </li>
+                -->
+            </ul>
+        </li>
+
+        <li class="has-sub"><a href='whybalancepoint.html'><span>Why Balance Point</span></a>
+            <ul>
+                <li><a href='benefits.html'><span>Benefits of Massage and Acupuncture</span></a></li>        
+                <li><a href='testimonials.html'><span>Testimonials</span></a></li>
+                <li><a href='satisfactionguarantee.html'><span>Satisfaction Guarantee</span></a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="has-sub"><a href='whatweoffer.html'><span>What We Offer</span></a>
+            <ul>
+                <li><a href='massagetypes.html'><span>Massage Types</span></a></li>        
+                <li><a href='acupuncture.html'><span>Acupuncture</span></a></li>
+            </ul>
+        </li>
+
+        <li><a href='faq.html'><span>FAQ</span></a></li>
+        <li class='last'><a href='contactus.html'><span>Contact Us</span></a></li>
+    </ul>
+</div>
+<br>
+    <footer>
+        <hr>
+        <h3>
+           This Site is made for educational purposes only and has no relation to Balance Point Massage San Diego.
+        </h3>  
+        <ul>
+            <li>
+                <a href="https://www.yelp.com/biz/balance-point-massage-and-bodywork-san-diego"><img src="/Assets/Footer/Yelp_trademark_RGB.png" height="50px">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/Balance-Point-Massage-552187881506266/"><img src="/Assets/Footer/flogo_RGB_HEX-72.svg" height="40px"></a>
+            </li>
+        </ul>
+
+    </footer>
+    </body>
+</html>

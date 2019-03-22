@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>About Gallery</title>
+    <!-- This needs to play nice with the main style sheet -->
+    <link rel="stylesheet" href="/Website/css/styles.css">
+    <!--  -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="/Assets/ResponsiveNavbarMenu/responsivemenu.js"></script>
+    <script src="/Website/js/app.js"></script>
+</head>
+
+
+<!--Begin Body Content-->
+<body> 
+<!--This is the menu, and it should mostly stay the same on every page. However, to show which page is active, add class="active" to the <li> tag. This must be changed for every page. -->
+<header>
+    <img src="/Assets/Images/logo/websitelogowleftlongtext.png">
+</header>
+    <div id='cssmenu'>
+        <ul>
+            <li><a href='/index.html'><span>Home</span></a></li>
+
+            <li class='has-sub active'><a href='/aboutus/'><span>About Us</span></a>
+                <ul>
+                    <li><a href='/aboutus/companyhistory.html'><span>Company History</span></a></li>
+                    <li><a href='/aboutus/meettheteam.html'><span>Meet the Team</span></a></li>        
+                    <li><a href='/aboutus/ourphilosophy.html'><span>Our Philosophy</span></a>
+                    </li>
+                    <!--
+                     This would add a submenu to the submenu. class="has-sub" adds the circular arrow icon which indicates there is a further sub menu
+                             <li class='has-sub'><a href='#'><span>Product 2</span></a>
+                                <ul>
+                                   <li><a href='#'><span>Sub Product</span></a></li>
+                                   <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                                </ul>
+                             </li>
+                    -->
+                </ul>
+            </li>
+
+                       <li class="has-sub"><a href='#'><span>Why Balance Point</span></a>
+                <ul>
+                    <li><a href='/whybalancepoint/benefits.html'><span>Benefits of Massage and Acupuncture</span></a></li>        
+                    <li><a href='/whybalancepoint/testimonials.html'><span>Testimonials</span></a></li>
+                    <li><a href='/whybalancepoint/satisfactionguarantee.html'><span>Satisfaction Guarantee</span></a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="has-sub"><a href='#'><span>What We Offer</span></a>
+                <ul>
+                    <li><a href='/whatweoffer/massagetypes.html'><span>Massage Types</span></a></li>        
+                    <li><a href='/whatweoffer/acupuncture.html'><span>Acupuncture</span></a></li>
+                </ul>
+            </li>
+
+            <li><a href='/faq/'><span>FAQ</span></a></li>
+            <li class='last'><a href='/contact/'><span>Contact Us</span></a></li>
+        </ul>
+    </div>
+    
+<!--Begin Main Content Area. The size of each section must be changed in the style tag at the top of this page.-->
+    <section>
+        <div class="about-description">
+            <h1>Our</h1>
+            <h1>Story</h1>
+            <p>All of our nationally certified massage therapists are able to offer you the best of both worlds to give you a therapeutic, relaxing massage. During your massage, as you allow yourself to relax, the massage therapist will be able to access the deeper areas of your body that need attention and provide you with a truly therapeutic massage. Relaxation is good therapy and good therapy enables us to relax.</p>
+            <p>We take great pride in our work and the ability to help others. It is through this recognition that we take our work seriously and with focused intention we wish to give you one of the best massages you've ever experienced.</p>
+            <p>Give us a visit and enjoy any and all of our offerings!</p>
+        </div>
+        <div class="room-gallery">
+            <img src="/Website/img/abouthistory1-big.jpeg" class="gallery-highlight" alt="">
+            <div class="room-preview">
+                <img src="/Website/img/abouthistory1-small.jpeg" class="room-active" alt="">
+                <img src="/Website/img/abouthistory2-small.jpg" alt="">
+                <img src="/Website/img/abouthistory3-small.jpeg" alt="">
+                <img src="/Website/img/abouthistory4-small.jpeg" alt="">
+                <img src="/Website/img/abouthistory5-small.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+    
+<script src="js/app.js"></script>
+<div class="footerHeight"></div>
+<footer>
+    <hr>
+    <h3>
+        This Site is made for educational purposes only and has no relation to Balance Point Massage San Diego.
+    </h3>  
+    <ul>
+        <li><a href="https://www.yelp.com/biz/balance-point-massage-and-bodywork-san-diego"><img src="/Assets/Footer/Yelp_trademark_RGB.png" height="50px"></a>
+        </li>
+        <li><a href="https://www.facebook.com/Balance-Point-Massage-552187881506266/"><img src="/Assets/Footer/flogo_RGB_HEX-72.svg" height="40px"></a>
+        </li>
+    </ul>
+
+</footer>
+</html>

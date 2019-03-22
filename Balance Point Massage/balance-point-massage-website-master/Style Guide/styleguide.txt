@@ -1,0 +1,14 @@
+Colors to use:
+
+Powder Green: #BFD8D2
+Peach: #FEDCD2
+Warm Orange: #DF744A
+Lemon: #DCB239
+
+Fonts to use:
+<link href=”https://fonts.googleapis.com/css?family=Abel|Advent+Pro|Barlow+Condensed|Tauri” rel=”stylesheets”>
+
+font-family: ‘Abel’, sans-serif;
+font-family: ‘Barlow Condensed’, sans-serif;
+font-family: ‘Advent Pro’, sans-serif;
+font-family: ‘Tauri’, sans-serif;

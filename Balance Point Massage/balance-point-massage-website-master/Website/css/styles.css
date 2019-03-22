@@ -1,0 +1,181 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ‘Abel’, sans-serif;
+    font-family: ‘Barlow Condensed’, sans-serif;
+    font-family: ‘Advent Pro’, sans-serif;
+    font-family: ‘Tauri’, sans-serif;    
+}
+
+/* BEGIN STYLES FOR OUR STORY PAGE*/
+
+.gallery-highlight{
+    width: 80%;
+    height: 50%;
+}
+section{
+    display: flex;
+    height: 100vh;
+}
+.room-gallery{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: #e2d2c0;
+}
+.about-description h1{
+    font-size: 500%;
+}
+.about-description p{
+    line-height: 2rem;
+    padding: 2.5rem 4rem 0;
+}
+.room-preview{
+    display: flex;
+    width: 80%;
+    border: 2px solid #e2d2c0;
+}
+.room-preview img{
+    height: 97px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+img.room-active{
+    opacity: 1;
+}
+
+/* BEGIN STYLES FOR TEAM PAGE */
+
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: #e7dbcc;
+    padding: 60px;
+}
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #ffffcc;
+    margin-bottom: 40px;
+}
+.ps{
+    margin-bottom: 40px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 10px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.ps a img{
+    width: 100%;
+    filter: grayscale(85%);
+    transition: 0.4s all;
+}
+.ps a:hover > img{
+    filter: none;
+}
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+.section:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;  
+}
+
+/* BEGIN STYLES FOR PHILOSOPHY PAGE */
+
+.wrapper{
+    width: 100%;
+}
+.img-info {
+    width: 100%;
+}
+.img-info h2{
+    padding: 30px 30px 0;
+    font-size: 25px;
+    color: #111;
+    line-height: 30px; 
+}
+.img-info p{
+    padding: 30px 30px 20px;
+    font-size: 16px;
+    color: #111;
+    line-height: 20px; 
+}
+.img-me{
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .wrapper{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .img-info h2{
+        padding: 30px 0 0;
+    }
+    .img-info p{
+        padding: 20px 0 0;
+    }
+    .img-me{
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .wrapper{
+        width: 1000px;
+    }
+    .img-info {
+        width: 50%;
+        padding-top: 10px;
+        float: right;
+    }
+    .img-info h2{
+        padding: 20px 0 0 30px;
+    }
+    .img-info p{
+        padding: 20px 0 0 30px;
+    }
+     .img-me{
+        padding-top: 30px;
+        width: 50%;
+        float: left;
+    }
+}

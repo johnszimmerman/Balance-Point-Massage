@@ -1,0 +1,22 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#ss_menu { 
+	width: 500px; 
+	}
+
+.ss_button { 
+	background-color: #FEDCD2;
+	border: 1px solid #666261;
+    margin-bottom: .5em;
+	cursor: pointer;
+	padding: 10px;
+	color: #8B8B8B;
+	}
+	
+.ss_content {
+	background-color: #FFF;
+	display: none;
+	padding: 10px;
+	}
